@@ -1,0 +1,134 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Utility container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f5c518;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav ul li a {
+  color: #f5c518;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* Scroll margin fix for sticky header */
+.section {
+  scroll-margin-top: 100px;
+  padding: 3.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+/* Our History Section */
+.history-section {
+  background-color: #fffad1;
+}
+
+/* Our Mission Section - white with dotted border */
+.mission-section {
+  background-color: #ffffff;
+  border: 2px dotted #f5c518;
+}
+
+/* Our Team Section - same as history */
+.team-section {
+  background-color: #fffad1;
+}
+
+/* Section Titles */
+.section h2 {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+.section p {
+  font-size: 1.1rem;
+  color: #222;
+  max-width: 850px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #f5c518;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #e5b100;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+.logo 
+{
+  height: 40px;
+  width: 100px;
+}
+
+
+
+
+
